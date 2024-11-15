@@ -55,7 +55,12 @@ func main() {
 	  greetPlanet(planet)*/
 
 	// Create `planetChoice` and `fuel`
-
+	var fuel int
+	fuel = 1000000
+	var planetChoice string = "Venus"
 	// And then liftoff!
+	fuelRemaining :=
+		flyToPlanet(planetChoice, fuel)
+	fuelGauge(fuelRemaining)
 
 }
